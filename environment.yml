@@ -1,0 +1,12 @@
+name: sars-cov-2
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - sra-tools
+  - samtools
+  - minimap2
+  - fastqc
+  - NanoFilt
+  - pangolin
+  - bcftools
