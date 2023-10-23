@@ -74,7 +74,7 @@ $ bash scritps/step_4_variant.sh
 
 ## Passo 5: classificação da linhagem
 
-Agora que temos o genoma montado, é possível se identificar a linhagem mais próxima (segundo a nomenclatura utilizada pela OMS) com da ferramenta `pangolin`, que pode ser executada com o *script* `step_5_classifiy.sh`. O resultado será o arquivo `data/classification/lineage_report.csv`, com a seguinte tabela:
+Agora que temos o genoma montado, é possível se identificar a linhagem mais próxima (segundo a nomenclatura utilizada pela OMS) com da ferramenta `pangolin`, que pode ser executada com o *script* `step_5_classify.sh`. O resultado será o arquivo `data/classification/lineage_report.csv`, com a seguinte tabela:
 
 |taxon                                                                                                                |lineage |conflict|ambiguity_score|scorpio_call                 |scorpio_support|scorpio_conflict|scorpio_notes                                                            |version     |pangolin_version|scorpio_version|constellation_version|is_designated|qc_status|qc_notes              |note                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------|--------|--------|---------------|-----------------------------|---------------|----------------|-------------------------------------------------------------------------|------------|----------------|---------------|---------------------|-------------|---------|----------------------|------------------------------------------------------------------------------------------------|
